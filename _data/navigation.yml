@@ -1,9 +1,20 @@
+# main links
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "About"
-    url: /about/
+    url: /
+  - title: "Projects"
+    url: /project/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+sidebar:
+  - title: "Posts"
+    children:
+      - title: "Collections"
+        url: /collection-archive/
+      - title: "Tags"
+        url: /tags/
+      #- title: "Projects"
+      #  url: /project
